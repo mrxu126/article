@@ -1,0 +1,35 @@
+{
+  "name": "hillinsight/xhprof",
+  "description": "Quick profiling of your code for Laravel",
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "profiling",
+    "profiler",
+    "xhprof",
+    "code",
+    "php"
+  ],
+  "authors": [
+    {
+      "name": "hillinsight",
+      "email": "author@hillinsight.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "laravel/framework": "^5.3|^6.0|^7.0|^8.0|^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hillinsight\\XHProf\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Hillinsight\\XHProf\\XHProfServiceProvider"
+      ]
+    }
+  }
+}
